@@ -1,0 +1,17 @@
+
+ @font-face {
+  font-family: "Gotham-Book";
+  src:url("Gotham-Book.eot");
+  src:url("Gotham-Book.eot?#iefix") format("embedded-opentype"),
+    url("Gotham-Book.woff") format("woff"),
+    url("Gotham-Book.ttf") format("truetype"),
+    url('Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;}
+
+.calico-font { font-family: "Gotham-Book", helvetica,arial,sans-serif; font-size: 12px;text-transform:none; }
+.calico-font a { color:black; font-weight:normal; }
+.calico-logo { background: url(logo-calico-black.svg) no-repeat; text-indent:-9999px;
+	display:inline-block;position:relative; width:56px; height: 15px; top:1px; }
+.calico-font a:hover { color: black; text-decoration:none;}
+.calico-font a:hover .calico-logo { background: url(logo-calico-black.svg) no-repeat;  }
